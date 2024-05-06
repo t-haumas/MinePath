@@ -1,5 +1,9 @@
+import * as fs from 'fs';
+
+const hello = fs.readFileSync("Resources/test.txt", "utf-8");
+
 function sayHello() {
-    console.log("Hello world");
+    console.log(hello);
 }
 
 function sayGoodbye() {
