@@ -1,6 +1,7 @@
 {
     "* obtainable_name from method": {
         "type": "* inventory_OR_milestone",
+        "action": "* how to combine the requirements to get the obtainable",
         "requirements": [
             {
                 "name": "* required_obtainable_name",
@@ -12,11 +13,11 @@
                 "type": "* inventory_OR_milestone",
                 "amount": "* 1 for milestone, 1-infinity for inventory"
             }
-        ],
-        "action": "* how to combine the requirements to get the obtainable"
+        ]
     },
     "* obtainable_name2 from method": {
         "type": "* inventory_OR_milestone",
+        "action": "* how to combine the requirements to get the obtainable",
         "requirements": [
             {
                 "name": "* required_obtainable_name",
@@ -28,7 +29,6 @@
                 "type": "* inventory_OR_milestone",
                 "amount": "* 1 for milestone, 1-infinity for inventory"
             }
-        ],
-        "action": "* how to combine the requirements to get the obtainable"
+        ]
     }
 }
