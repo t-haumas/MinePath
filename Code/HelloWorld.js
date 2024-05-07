@@ -10,4 +10,7 @@ function sayGoodbye() {
     console.log("Goodbye world");
 }
 
-export default { sayHello, sayGoodbye };
+export default {
+    sayHello, 
+    sayGoodbye
+};

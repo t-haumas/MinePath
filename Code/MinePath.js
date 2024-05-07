@@ -1,4 +1,15 @@
 import HelloWorld from "./HelloWorld.js";
 
-HelloWorld.sayHello();
-HelloWorld.sayGoodbye();
+function sayHellos() {
+    HelloWorld.sayHello();
+    HelloWorld.sayGoodbye();    
+}
+
+function getHello() {
+    return "Hello from MinePath.js!";
+}
+
+export default {
+    getHello,
+    sayHellos
+};
