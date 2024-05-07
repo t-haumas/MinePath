@@ -4,5 +4,7 @@
 
 import MinePath from "./MinePath.js";
 
-MinePath.sayHellos();
+MinePath.readObtainablesObject();
 MinePath.saveObtainablesObject();
+
+console.log(MinePath.getObtainablesObject());

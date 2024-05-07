@@ -23,7 +23,17 @@ function saveObtainablesObject() {
     FileIO.saveJSONToResourcesFile(obtainables, "obtainables.json");
 }
 
+function readObtainablesObject() {
+    obtainables = JSON.parse(FileIO.readResourcesFileContent("obtainables.json"));
+}
+
+function getObtainablesObject() {
+    return obtainables;
+}
+
 export default {
     sayHellos,
-    saveObtainablesObject
+    saveObtainablesObject,
+    readObtainablesObject,
+    getObtainablesObject
 };
