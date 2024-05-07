@@ -1,3 +1,31 @@
 {
-  "Hello": "hi"
+    "inventory: diamond from mining": {
+        "name": "diamond",
+        "type": "inventory",
+        "action": "mine a diamond",
+        "requirements": [
+            {
+                "name": "iron pickaxe from crafting",
+                "type": "milestone",
+                "amount": 1
+            }
+        ]
+    },
+    "milestone: auto-furnace": {
+        "name": "auto-furnace",
+        "type": "milestone",
+        "action": "build an auto-furnace",
+        "requirements": [
+            {
+                "name": "furnace from crafting",
+                "type": "inventory",
+                "amount": 1
+            },
+            {
+                "name": "hopper from crafting",
+                "type": "inventory",
+                "amount": 3
+            }
+        ]
+    }
 }

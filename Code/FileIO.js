@@ -1,6 +1,6 @@
 import * as fs from 'fs';
 
-const NUM_JSON_INDENT_SPACES = 2;
+const NUM_JSON_INDENT_SPACES = 4;
 
 function readResourcesFileContent(filename) {
     return fs.readFileSync("Resources/"+filename, "utf-8");
