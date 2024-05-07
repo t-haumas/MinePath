@@ -1,43 +1,45 @@
 {
-    "diamond from mining": {
+    "inventory: diamond from mining": {
+        "name": "diamond",
         "type": "inventory",
         "action": "mine a diamond",
         "requirements": [
             {
-                "name": "iron pickaxe",
+                "name": "iron pickaxe from crafting",
                 "type": "milestone",
                 "amount": 1
             }
         ]
     },
-    "iron pickaxe from crafting": {
+    "milestone: iron pickaxe from crafting": {
+        "name": "iron pickaxe",
         "type": "milestone",
         "action": "craft an iron pickaxe",
         "requirements": [
             {
-                "name": "stone pickaxe",
+                "name": "stone pickaxe from crafting",
                 "type": "milestone",
                 "amount": 1
             },
             {
-                "name": "stick",
+                "name": "stick from crafting",
                 "type": "inventory",
                 "amount": 2
             },
             {
-                "name": "iron ingot",
+                "name": "iron ingot from smelting",
                 "type": "inventory",
                 "amount": 3
             }
         ]
     },
-
-    "iron ingot from smelting": {
+    "inventory: iron ingot from smelting": {
+        "name": "iron ingot",
         "type": "inventory",
         "action": "smelt raw iron",
         "requirements": [
             {
-                "name": "raw iron",
+                "name": "raw iron from mining",
                 "type": "inventory",
                 "amount": 1
             },

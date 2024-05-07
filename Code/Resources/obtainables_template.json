@@ -1,31 +1,33 @@
 {
-    "* obtainable_name from method": {
+    "* inventory_OR_milestone: obtainable_name <from method>": {
+        "name": "* obtainable_name",
         "type": "* inventory_OR_milestone",
         "action": "* how to combine the requirements to get the obtainable",
         "requirements": [
             {
-                "name": "* required_obtainable_name",
+                "name": "* required_obtainable_name <from method>",
                 "type": "* inventory_OR_milestone",
                 "amount": "* 1 for milestone, 1-infinity for inventory"
             },
             {
-                "name": "* required_obtainable_name",
+                "name": "* required_obtainable_name <from method>",
                 "type": "* inventory_OR_milestone",
                 "amount": "* 1 for milestone, 1-infinity for inventory"
             }
         ]
     },
-    "* obtainable_name2 from method": {
+    "* inventory_OR_milestone: obtainable_name2 <from method>": {
+        "name": "* obtainable_name",
         "type": "* inventory_OR_milestone",
         "action": "* how to combine the requirements to get the obtainable",
         "requirements": [
             {
-                "name": "* required_obtainable_name",
+                "name": "* required_obtainable_name <from method>",
                 "type": "* inventory_OR_milestone",
                 "amount": "* 1 for milestone, 1-infinity for inventory"
             },
             {
-                "name": "* required_obtainable_name",
+                "name": "* required_obtainable_name <from method>",
                 "type": "* inventory_OR_milestone",
                 "amount": "* 1 for milestone, 1-infinity for inventory"
             }
