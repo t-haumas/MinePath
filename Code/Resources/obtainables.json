@@ -2,29 +2,37 @@
     "inventory: diamond from mining": {
         "name": "diamond",
         "type": "inventory",
-        "action": "mine a diamond",
+        "action": "mine a diamondd",
         "requirements": [
             {
-                "name": "iron pickaxe from crafting",
-                "type": "milestone",
+                "entry": "milestone: iron pickaxe from crafting",
                 "amount": 1
             }
         ]
     },
-    "milestone: auto-furnace": {
-        "name": "auto-furnace",
+    "milestone: iron pickaxe from crafting": {
+        "name": "iron pickaxe",
         "type": "milestone",
-        "action": "build an auto-furnace",
+        "action": "craft an iron pickaxe",
         "requirements": [
             {
-                "name": "furnace from crafting",
-                "type": "inventory",
-                "amount": 1
+                "entry": "inventory: iron ingot from smelting",
+                "amount": 3
             },
             {
-                "name": "hopper from crafting",
-                "type": "inventory",
-                "amount": 3
+                "entry": "inventory: stick from crafting",
+                "amount": 2
+            }
+        ]
+    },
+    "inventory: stick from crafting": {
+        "name": "stick",
+        "type": "inventory",
+        "action": "craft a stick",
+        "requirements": [
+            {
+                "entry": "inventory: wooden plank from crafting",
+                "amount": 2
             }
         ]
     }
