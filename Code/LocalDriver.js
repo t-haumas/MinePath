@@ -5,3 +5,4 @@
 import MinePath from "./MinePath.js";
 
 MinePath.sayHellos();
+MinePath.saveObtainablesObject();
