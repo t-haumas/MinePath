@@ -5,8 +5,7 @@
         "action": "mine a diamond",
         "requirements": [
             {
-                "name": "iron pickaxe from crafting",
-                "type": "milestone",
+                "entry": "milestone: iron pickaxe from crafting",
                 "amount": 1
             }
         ]
@@ -17,18 +16,15 @@
         "action": "craft an iron pickaxe",
         "requirements": [
             {
-                "name": "stone pickaxe from crafting",
-                "type": "milestone",
+                "entry": "milestone: stone pickaxe from crafting",
                 "amount": 1
             },
             {
-                "name": "stick from crafting",
-                "type": "inventory",
+                "entry": "inventory: stick from crafting",
                 "amount": 2
             },
             {
-                "name": "iron ingot from smelting",
-                "type": "inventory",
+                "entry": "inventory: iron ingot from smelting",
                 "amount": 3
             }
         ]
@@ -39,13 +35,11 @@
         "action": "smelt raw iron",
         "requirements": [
             {
-                "name": "raw iron from mining",
-                "type": "inventory",
+                "entry": "inventory: raw iron from mining",
                 "amount": 1
             },
             {
-                "name": "lava-powered auto-smelter",
-                "type": "milestone",
+                "entry": "milestone: lava-powered auto-smelter",
                 "amount": 1
             }
         ]
