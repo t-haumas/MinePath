@@ -1,4 +1,7 @@
-import MinePath from "./MinePath.js";
-import EditObtainables from "./EditObtainables.js";
+/**
+ * This is for running the application locally using node. It should only import MinePath and run one thing from it.
+ */
 
-console.log(EditObtainables.getHello());
+import MinePath from "./MinePath.js";
+
+MinePath.sayHellos();
