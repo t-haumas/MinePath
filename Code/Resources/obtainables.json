@@ -1,39 +1,122 @@
 {
-    "inventory: diamond from mining": {
+    "inventory: diamond": {
         "name": "diamond",
         "type": "inventory",
-        "action": "mine a diamondd",
-        "requirements": [
-            {
-                "entry": "milestone: iron pickaxe from crafting",
-                "amount": 1
-            }
-        ]
+        "action": "mine a diamond"
     },
-    "milestone: iron pickaxe from crafting": {
+    "milestone: iron pickaxe": {
         "name": "iron pickaxe",
         "type": "milestone",
-        "action": "craft an iron pickaxe",
-        "requirements": [
-            {
-                "entry": "inventory: iron ingot from smelting",
-                "amount": 3
-            },
-            {
-                "entry": "inventory: stick from crafting",
-                "amount": 2
-            }
-        ]
+        "action": "craft an iron pickaxe"
     },
-    "inventory: stick from crafting": {
+    "inventory: stick": {
         "name": "stick",
         "type": "inventory",
-        "action": "craft a stick",
-        "requirements": [
-            {
-                "entry": "inventory: wooden plank from crafting",
-                "amount": 2
-            }
-        ]
+        "action": "craft sticks"
+    },
+    "inventory: iron ingot": {
+        "name": "iron ingot",
+        "type": "inventory",
+        "action": "smelt iron ingots"
+    },
+    "inventory: obsidian": {
+        "name": "obsidian",
+        "type": "inventory",
+        "action": "mine an obsidian"
+    },
+    "inventory: unrelated": {
+        "name": "unrelated",
+        "type": "inventory",
+        "action": "do something unrelated"
+    },
+    "milestone: diamond pickaxe": {
+        "name": "diamond pickaxe",
+        "type": "milestone",
+        "action": "craft a diamond pickaxe"
+    },
+    "inventory: world: obsidian": {
+        "name": "world: obsidian",
+        "type": "inventory",
+        "action": "make obsidian at a lava pool"
+    },
+    "milestone: lava-powered auto-smelter": {
+        "name": "lava-powered auto-smelter",
+        "type": "milestone",
+        "action": "build a lava-powered auto-smelter"
+    },
+    "inventory: raw iron": {
+        "name": "raw iron",
+        "type": "inventory",
+        "action": "mine iron"
+    },
+    "inventory: wooden planks": {
+        "name": "wooden planks",
+        "type": "inventory",
+        "action": "craft wooden planks"
+    },
+    "inventory: world: lava pool": {
+        "name": "world: lava pool",
+        "type": "inventory",
+        "action": "find a lava pool"
+    },
+    "milestone: water bucket": {
+        "name": "water bucket",
+        "type": "milestone",
+        "action": "get a water bucket with infinite water source"
+    },
+    "milestone: stone pickaxe": {
+        "name": "stone pickaxe",
+        "type": "milestone",
+        "action": "craft a stone pickaxe"
+    },
+    "inventory: log": {
+        "name": "log",
+        "type": "inventory",
+        "action": "mine log"
+    },
+    "milestone: bucket": {
+        "name": "bucket",
+        "type": "milestone",
+        "action": "craft bucket"
+    },
+    "milestone: world: infinite water source": {
+        "name": "world: infinite water source",
+        "type": "milestone",
+        "action": "make an infinite water source"
+    },
+    "inventory: cobblestone": {
+        "name": "cobblestone",
+        "type": "inventory",
+        "action": "mine stone"
+    },
+    "milestone: world: trees": {
+        "name": "world: trees",
+        "type": "milestone",
+        "action": "find trees"
+    },
+    "inventory: world: water source block": {
+        "name": "world: water source block",
+        "type": "inventory",
+        "action": "find a water source block"
+    },
+    "milestone: wooden pickaxe": {
+        "name": "wooden pickaxe",
+        "type": "milestone",
+        "action": "craft a wooden pickaxe"
+    },
+    "milestone: furnace": {
+        "name": "furnace",
+        "type": "milestone",
+        "action": "craft a furnace"
+    },
+    "inventory: coal": {
+        "name": "coal",
+        "type": "inventory",
+        "action": "mine coal"
+    },
+    "milestone: crafting table": {
+        "name": "crafting table",
+        "type": "milestone",
+        "action": "craft a crafting table"
     }
 }

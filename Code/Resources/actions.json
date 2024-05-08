@@ -1,0 +1,454 @@
+{
+    "goal: a diamond and an obsidian": {
+        "requirements": [
+            {
+                "name": "diamond",
+                "type": "inventory",
+                "amount": 1
+            },
+            {
+                "name": "obsidian",
+                "type": "inventory",
+                "amount": 1
+            }
+        ],
+        "yields": [
+            {
+                "name": "diamond",
+                "type": "inventory",
+                "amount": 1
+            },
+            {
+                "name": "obsidian",
+                "type": "inventory",
+                "amount": 1
+            }
+        ]
+    },
+    "another unrelated thing": {
+        "requirements": [
+            {
+                "name": "a third unrelated thing",
+                "type": "inventory",
+                "amount": 1
+            }
+        ],
+        "yields": [
+            {
+                "name": "a fourth unrelated thing",
+                "type": "inventory",
+                "amount": 1
+            }
+        ]
+    },
+    "mine a diamond": {
+        "requirements": [
+            {
+                "name": "iron pickaxe",
+                "type": "milestone",
+                "amount": 1
+            }
+        ],
+        "yields": [
+            {
+                "name": "diamond",
+                "type": "inventory",
+                "amount": 1
+            }
+        ]
+    },
+    "mine an obsidian": {
+        "requirements": [
+            {
+                "name": "diamond pickaxe",
+                "type": "milestone",
+                "amount": 1
+            },
+            {
+                "name": "world: obsidian",
+                "type": "inventory",
+                "amount": 1
+            }
+        ],
+        "yields": [
+            {
+                "name": "obsidian",
+                "type": "inventory",
+                "amount": 1
+            }
+        ]
+    },
+    "craft an iron pickaxe": {
+        "requirements": [
+            {
+                "name": "iron ingot",
+                "type": "inventory",
+                "amount": 3
+            },
+            {
+                "name": "stick",
+                "type": "inventory",
+                "amount": 2
+            }
+        ],
+        "yields": [
+            {
+                "name": "iron pickaxe",
+                "type": "milestone",
+                "amount": 1
+            }
+        ]
+    },
+    "auto-smelt iron ingots": {
+        "requirements": [
+            {
+                "name": "lava-powered auto-smelter",
+                "type": "milestone",
+                "amount": 1
+            },
+            {
+                "name": "raw iron",
+                "type": "inventory",
+                "amount": 1
+            }
+        ],
+        "yields": [
+            {
+                "name": "iron ingot",
+                "type": "inventory",
+                "amount": 1
+            }
+        ]
+    },
+    "craft sticks": {
+        "requirements": [
+            {
+                "name": "wooden planks",
+                "type": "inventory",
+                "amount": 2
+            }
+        ],
+        "yields": [
+            {
+                "name": "stick",
+                "type": "inventory",
+                "amount": 4
+            }
+        ]
+    },
+    "craft a diamond pickaxe": {
+        "requirements": [
+            {
+                "name": "stick",
+                "type": "inventory",
+                "amount": 2
+            },
+            {
+                "name": "diamond",
+                "type": "inventory",
+                "amount": 3
+            }
+        ],
+        "yields": [
+            {
+                "name": "diamond pickaxe",
+                "type": "milestone",
+                "amount": 1
+            }
+        ]
+    },
+    "make obsidian at a lava pool": {
+        "requirements": [
+            {
+                "name": "world: lava pool",
+                "type": "inventory",
+                "amount": 1
+            },
+            {
+                "name": "water bucket",
+                "type": "milestone",
+                "amount": 1
+            }
+        ],
+        "yields": [
+            {
+                "name": "world: obsidian",
+                "type": "inventory",
+                "amount": 20
+            }
+        ]
+    },
+    "mine iron": {
+        "requirements": [
+            {
+                "name": "stone pickaxe",
+                "type": "milestone",
+                "amount": 1
+            }
+        ],
+        "yields": [
+            {
+                "name": "raw iron",
+                "type": "inventory",
+                "amount": 1
+            }
+        ]
+    },
+    "craft wooden planks": {
+        "requirements": [
+            {
+                "name": "log",
+                "type": "inventory",
+                "amount": 1
+            }
+        ],
+        "yields": [
+            {
+                "name": "wooden planks",
+                "type": "inventory",
+                "amount": 4
+            }
+        ]
+    },
+    "find a lava pool": {
+        "requirements": [],
+        "yields": [
+            {
+                "name": "world: lava pool",
+                "type": "inventory",
+                "amount": 1
+            }
+        ]
+    },
+    "get a water bucket with infinite water source": {
+        "requirements": [
+            {
+                "name": "bucket",
+                "type": "milestone",
+                "amount": 1
+            },
+            {
+                "name": "world: infinite water source",
+                "type": "milestone",
+                "amount": 1
+            }
+        ],
+        "yields": [
+            {
+                "name": "water bucket",
+                "type": "milestone",
+                "amount": 1
+            }
+        ]
+    },
+    "mine log": {
+        "requirements": [
+            {
+                "name": "world: trees",
+                "type": "milestone",
+                "amount": 1
+            }
+        ],
+        "yields": [
+            {
+                "name": "log",
+                "type": "inventory",
+                "amount": 1
+            }
+        ]
+    },
+    "craft a stone pickaxe": {
+        "requirements": [
+            {
+                "name": "stick",
+                "type": "inventory",
+                "amount": 2
+            },
+            {
+                "name": "cobblestone",
+                "type": "inventory",
+                "amount": 3
+            }
+        ],
+        "yields": [
+            {
+                "name": "stone pickaxe",
+                "type": "milestone",
+                "amount": 1
+            }
+        ]
+    },
+    "craft bucket": {
+        "requirements": [
+            {
+                "name": "iron ingot",
+                "type": "inventory",
+                "amount": 3
+            }
+        ],
+        "yields": [
+            {
+                "name": "bucket",
+                "type": "milestone",
+                "amount": 1
+            }
+        ]
+    },
+    "make an infinite water source": {
+        "requirements": [
+            {
+                "name": "world: water source block",
+                "type": "inventory",
+                "amount": 2
+            },
+            {
+                "name": "bucket",
+                "type": "milestone",
+                "amount": 1
+            }
+        ],
+        "yields": [
+            {
+                "name": "world: infinite water source",
+                "type": "milestone",
+                "amount": 1
+            }
+        ]
+    },
+    "mine stone": {
+        "requirements": [
+            {
+                "name": "wooden pickaxe",
+                "type": "milestone",
+                "amount": 1
+            }
+        ],
+        "yields": [
+            {
+                "name": "cobblestone",
+                "type": "inventory",
+                "amount": 1
+            }
+        ]
+    },
+    "find trees": {
+        "requirements": [],
+        "yields": [
+            {
+                "name": "world: trees",
+                "type": "milestone",
+                "amount": 1
+            }
+        ]
+    },
+    "find a water source block": {
+        "requirements": [],
+        "yields": [
+            {
+                "name": "world: water source block",
+                "type": "inventory",
+                "amount": 1
+            }
+        ]
+    },
+    "craft a wooden pickaxe": {
+        "requirements": [
+            {
+                "name": "stick",
+                "type": "inventory",
+                "amount": 2
+            },
+            {
+                "name": "log",
+                "type": "inventory",
+                "amount": 3
+            }
+        ],
+        "yields": [
+            {
+                "name": "wooden pickaxe",
+                "type": "milestone",
+                "amount": 1
+            }
+        ]
+    },
+    "smelt iron ingots": {
+        "requirements": [
+            {
+                "name": "furnace",
+                "type": "milestone",
+                "amount": 1
+            },
+            {
+                "name": "coal",
+                "type": "inventory",
+                "amount": 1
+            },
+            {
+                "name": "raw iron",
+                "type": "inventory",
+                "amount": 8
+            }
+        ],
+        "yields": [
+            {
+                "name": "iron ingot",
+                "type": "inventory",
+                "amount": 8
+            }
+        ]
+    },
+    "craft a furnace": {
+        "requirements": [
+            {
+                "name": "crafting table",
+                "type": "milestone",
+                "amount": 1
+            },
+            {
+                "name": "cobblestone",
+                "type": "inventory",
+                "amount": 8
+            }
+        ],
+        "yields": [
+            {
+                "name": "furnace",
+                "type": "milestone",
+                "amount": 1
+            }
+        ]
+    },
+    "mine coal": {
+        "requirements": [
+            {
+                "name": "wooden pickaxe",
+                "type": "milestone",
+                "amount": 1
+            }
+        ],
+        "yields": [
+            {
+                "name": "coal",
+                "type": "inventory",
+                "amount": 1
+            }
+        ]
+    },
+    "craft a crafting table": {
+        "requirements": [
+            {
+                "name": "wooden planks",
+                "type": "inventory",
+                "amount": 4
+            }
+        ],
+        "yields": [
+            {
+                "name": "crafting table",
+                "type": "milestone",
+                "amount": 1
+            }
+        ]
+    }
+}
